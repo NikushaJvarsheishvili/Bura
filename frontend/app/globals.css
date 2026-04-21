@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --auth-bg: #2f0b15;
+  --auth-bg-deep: #1f060d;
+  --auth-card: #3b1620;
+  --auth-input: #4a1d2a;
+  --auth-gold: #e3ba50;
+  --auth-gold-bright: #f4cf69;
+  --auth-cream: #f6f0e6;
+  --auth-muted: #b9a99a;
+}
+
+body {
+  background: #ffffff;
+  color: #111827;
+}
+
+.text-auth-bg { color: var(--auth-bg); }
+.text-auth-gold { color: var(--auth-gold); }
+.text-auth-gold-bright { color: var(--auth-gold-bright); }
+.text-auth-cream { color: var(--auth-cream); }
+.text-auth-muted { color: var(--auth-muted); }
+
+.bg-auth-card { background-color: var(--auth-card); }
+.bg-auth-input { background-color: var(--auth-input); }
+.bg-auth-gold { background-color: var(--auth-gold); }
+.bg-auth-gold-bright { background-color: var(--auth-gold-bright); }
+.bg-auth-gradient {
+  background:
+    radial-gradient(circle at top, rgba(227, 186, 80, 0.12), transparent 35%),
+    linear-gradient(180deg, var(--auth-bg) 0%, var(--auth-bg-deep) 100%);
+}
+
+.border-auth-gold { border-color: var(--auth-gold); }
+.placeholder\:text-auth-muted\/50::placeholder { color: color-mix(in srgb, var(--auth-muted) 50%, transparent); }
+.hover\:text-auth-gold:hover { color: var(--auth-gold); }
+.hover\:text-auth-gold-bright:hover { color: var(--auth-gold-bright); }
+.hover\:bg-auth-gold-bright:hover { background-color: var(--auth-gold-bright); }
+.hover\:shadow-auth-glow:hover { box-shadow: 0 0 30px rgba(227, 186, 80, 0.25); }
+.shadow-auth-card { box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35); }
+
+.text-auth-gold\/10 { color: color-mix(in srgb, var(--auth-gold) 10%, transparent); }
+.text-auth-gold\/5 { color: color-mix(in srgb, var(--auth-gold) 5%, transparent); }
+.text-auth-gold\/70 { color: color-mix(in srgb, var(--auth-gold) 70%, transparent); }
+.text-auth-cream\/90 { color: color-mix(in srgb, var(--auth-cream) 90%, transparent); }
+.text-auth-muted\/50 { color: color-mix(in srgb, var(--auth-muted) 50%, transparent); }
+.text-auth-gold\/80 { color: color-mix(in srgb, var(--auth-gold) 80%, transparent); }
+
+.bg-auth-card\/80 { background-color: color-mix(in srgb, var(--auth-card) 80%, transparent); }
+.bg-auth-input\/60 { background-color: color-mix(in srgb, var(--auth-input) 60%, transparent); }
+.bg-auth-gold\/5 { background-color: color-mix(in srgb, var(--auth-gold) 5%, transparent); }
+
+.border-auth-gold\/20 { border-color: color-mix(in srgb, var(--auth-gold) 20%, transparent); }
+.border-auth-gold\/30 { border-color: color-mix(in srgb, var(--auth-gold) 30%, transparent); }
+.border-auth-gold\/60 { border-color: color-mix(in srgb, var(--auth-gold) 60%, transparent); }
+.ring-auth-gold\/20 { --tw-ring-color: color-mix(in srgb, var(--auth-gold) 20%, transparent); }

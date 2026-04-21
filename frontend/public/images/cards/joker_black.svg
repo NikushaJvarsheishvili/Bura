@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" width="250" height="350">
+  <rect x="2" y="2" width="246" height="346" rx="16" ry="16" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="26" y="38" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="18" fill="#111111">JOKER</text>
+  <text x="224" y="320" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="18" fill="#111111" transform="rotate(180 224 320)">JOKER</text>
+  <g transform="translate(125.0,175.0)">
+    <circle r="70" fill="#f1c40f" opacity="0.15"/>
+    <text text-anchor="middle" y="-10" font-family="Georgia, serif" font-weight="700" font-size="64" fill="#111111">★</text>
+    <text text-anchor="middle" y="40" font-family="Arial, sans-serif" font-size="22" fill="#111111">JOKER</text>
+  </g>
+</svg>
